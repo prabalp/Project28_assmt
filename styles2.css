@@ -1,0 +1,225 @@
+.brand-img {
+  position: absolute;
+  width: 7.81%;
+  height: 3.9%;
+  left: 4.166%;
+  top: 2.22%;
+}
+
+a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.781rem;
+  line-height: 1.66%;
+  color: #1E1F1E;
+  text-decoration: none;
+  position: absolute;
+  height: 2.96%;
+  top: 4.5%;
+}
+
+.getStarted {
+  margin-left: 83.7%;
+  font-weight:bolder;
+  font-size: 13.5px;
+}
+
+.vector-icon-top {
+
+}
+
+.vector-icon-bottom {
+
+}
+
+/* Form */
+
+.green-box {
+  position: absolute;
+  width: 100%;
+  height: 19.63%;
+  left: 0;
+  top: 80.369%;
+  background: #19BAA8;
+}
+
+.form-box {
+  background-image: url("Rectangle 364.png");
+  position: absolute;
+  width: 33.38%;
+  height: 70.4%;
+  left: 33.38%;
+  top: 14.83%;
+  background: #FFFFFF;
+  box-shadow: 0 5.00741px 25.037px rgba(30, 31, 30, 0.06);
+  border-radius: 5.00741px;
+  border-top: 3px solid #00B4B3;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Red Hat Display";
+  padding-left: 17.3%;
+  height: 31px;
+  width: 317px;
+  font-size: 1.878rem;
+  top: 20.77%;
+}
+
+p {
+  font-family: "Open Sans";
+  line-height: 20px;
+  font-size: 0.704rem;
+  padding-left: 14%;
+  color: #1E1F1E;
+  margin-top: 1.1%;
+}
+
+h3 {
+  font-family: "Red Hat Display";
+  text-align: center;
+  padding-top: 4.30%;
+  margin-top: 0;
+}
+
+h4 {
+
+  font-family: "Open Sans";
+  font-size: 0.939rem;
+  padding-left: 26px;
+  margin-bottom: 9px;
+}
+
+.input-text {
+  border-radius: 3px;
+  margin-left: 30px;
+  width: 370px;
+  height: 25px;
+  margin-top: 0;
+  padding-left:  10px;
+  margin-top: 1px;
+
+}
+
+.remember-me
+{
+  margin-top:19px;
+  margin-left: 0;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.rem-me{
+  margin-top: 19px;
+  margin-bottom: 0;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.login-button{
+  width: 200px;
+  height: 35px;
+  margin-top: 25px;
+  background-color:  #7575a3;
+  color:white;
+  border-radius: 4px;
+  border: none;
+}
+
+.tweb {
+  margin-top: 6.651rem;
+  position: absolute;
+  left:-0.625rem;
+  z-index: 1;
+  width: 37.5%;
+  height: 72.9%;
+}
+
+/*dropdown with checkbox*/
+
+.checkbox-dropdown {
+    width: 200px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+
+    user-select: none;
+}
+
+/* Display CSS arrow to the right of the dropdown text */
+.checkbox-dropdown:after {
+    content:'';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+/* Reverse the CSS arrow when the dropdown is active */
+.checkbox-dropdown.is-active:after {
+    border-bottom-color: #000;
+    border-top-color: #fff;
+    margin-top: -9px;
+}
+
+.checkbox-dropdown-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; /* align the dropdown right below the dropdown text */
+    border: inherit;
+    border-top: none;
+    left: -1px; /* align the dropdown to the left */
+    right: -1px; /* align the dropdown to the right */
+    opacity: 0; /* hide the dropdown */
+
+    transition: opacity 0.4s ease-in-out;
+    height: 100px;
+    overflow: visible;
+    overflow-x: hidden;
+    pointer-events: none; /* avoid mouse click events inside the dropdown */
+}
+.is-active .checkbox-dropdown-list {
+    opacity: 1; /* display the dropdown */
+    pointer-events: auto; /* make sure that the user still can select checkboxes */
+}
+
+.checkbox-dropdown-list li label {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list li label:hover {
+    background-color: #555;
+    color: white;
+}
+
+.pure-button {
+
+  color: #19BAA8;
+  width: 50px;
+  height: 70px;
+  border: none;
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  left: 570px;
+  border-radius: 5px;
+}
+
+.pure-button:hover {
+  color: #FFFFFF;
+  background-color: #19BAA8;
+}

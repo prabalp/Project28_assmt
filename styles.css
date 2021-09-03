@@ -1,0 +1,191 @@
+.brand-img {
+  position: absolute;
+  width: 7.81%;
+  height: 3.9%;
+  left: 4.166%;
+  top: 2.22%;
+}
+
+a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.781rem;
+  line-height: 1.66%;
+  color: #1E1F1E;
+  text-decoration: none;
+  position: absolute;
+  height: 2.96%;
+  top: 4.5%;
+}
+
+.getStarted {
+  margin-left: 83.7%;
+  font-weight:bolder;
+  font-size: 13.5px;
+}
+
+.icon{
+  position: absolute;
+  right: 45px;
+  top: 20px;
+}
+
+
+/* Form */
+
+.green-box {
+  position: absolute;
+  width: 100%;
+  height: 19.63%;
+  left: 0;
+  top: 80.369%;
+  background: #19BAA8;
+}
+
+.form-box {
+  background-image: url("Rectangle 364.png");
+  position: absolute;
+  width: 33.38%;
+  height: 70.4%;
+  left: 33.38%;
+  top: 14.83%;
+  background: #FFFFFF;
+  box-shadow: 0 5.00741px 25.037px rgba(30, 31, 30, 0.06);
+  border-radius: 5.00741px;
+  border-top: 3px solid #00B4B3;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Red Hat Display";
+  padding-left: 17.3%;
+  height: 31px;
+  width: 317px;
+  font-size: 1.878rem;
+  top: 20.77%;
+}
+
+p {
+  font-family: "Open Sans";
+  line-height: 20px;
+  font-size: 0.704rem;
+  padding-left: 14%;
+  color: #1E1F1E;
+  margin-top: 1.1%;
+}
+
+h3 {
+  font-family: "Red Hat Display";
+  text-align: center;
+  padding-top: 4.30%;
+  margin-top: 0;
+}
+
+h4 {
+  font-family: "Open Sans";
+ font-size: 0.939rem;
+ padding-left: 7.24%;
+ margin-bottom: 9px;
+ color: #1E1F1E;
+}
+
+.input-text {
+  border-radius: 3px;
+  margin-left: 30px;
+  width: 350.52px;
+  height: 35px;
+  padding-bottom: 0;
+  padding-left:  10px;
+  margin-top: 1px;
+  margin-bottom: 0;
+
+border: 0.625926px solid #000000;
+box-sizing: border-box;
+border-radius: 5.00741px;
+
+}
+
+.remember-me
+{
+  width: 15px;
+  margin-top:0;
+  margin-left: 0;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.rem-me{
+  padding-top:0;
+  margin-bottom: 0;
+  display: inline-block;
+  font-family: "Open Sans";
+  margin-left: 0;
+  margin-right: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.5185px;
+
+  color: #1E1F1E;
+}
+
+.login-button{
+  width: 200px;
+  height: 35px;
+  margin-top: 25px;
+  background-color:  #7575a3;
+  color:white;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-button:hover{
+  background-color: #19BAA8;
+}
+
+.tweb {
+  margin-top: 6.651rem;
+  position: absolute;
+  left: -0.625rem;
+  z-index: 1;
+  width: 37.5%;
+  height: 72.9%;
+}
+
+.tweb:after {
+   content:"";
+   position: absolute;
+   top:100px;right:0;bottom:0;left: 0;
+   z-index:-2;
+   -webkit-box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
+   -moz-box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
+   box-shadow:-129px 600px 10px -150px grey;
+   -webkit-border-radius:50%;
+   -moz-border-radius:50%;
+   border-radius:90%;
+   transform:scaleY(.3);
+   -webkit-transform:scaleY(.3);
+   -moz-transform:scaleY(.3);
+   -ms-transform:scaleY(.3);
+   -o-transform:scaleY(.3);
+}
+
+.box {
+  width: 51%;
+  height: 295px;
+  top: 190px;
+  position: absolute;
+}
+.designation {
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  left: 33%;
+  color: #fff;
+  text-align: center;
+  font-family: "Red Hat Display";
+  line-height: 30px;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+}
